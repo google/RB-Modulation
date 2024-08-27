@@ -27,7 +27,7 @@ cd ..
 # Install dependencies following the original [StableCascade](https://github.com/Stability-AI/StableCascade/blob/master/inference/readme.md)
 conda create -n rbm python==3.9
 pip install -r requirements.txt
-pip install jupyter notebook opencv-python matplotlib ffty
+pip install jupyter notebook opencv-python matplotlib ftfy
 
 # Download [pre-trained CSD weights](https://drive.google.com/file/d/1FX0xs8p-C7Ob-h5Y4cUhTeOepHzXv_46/view) and put it under `third_party/CSD/checkpoint.pth`.
 
