@@ -12,7 +12,8 @@ composition with reference content images while maintaining sample diversity and
 
 
 ## 🔥 Updates
-- [x] **[2024.08.23]** [RB-Modulation](https://rb-modulation.github.io/) Code Release!
+- [x] **[2024.09.02]** RB-Modulation [Demo](https://huggingface.co/spaces/fffiloni/RB-Modulation) on Hugging Face! Thanks [Sylvain Filoni](https://huggingface.co/fffiloni).
+- [x] **[2024.08.23]** RB-Modulation [Code](https://github.com/google/RB-Modulation) Release!
 - [x] **[2024.05.29]** [Paper](https://arxiv.org/pdf/2405.17401) is published on arXiv!
 
 
@@ -41,6 +42,9 @@ pip install -e .
 ```commandline
 jupyter notebook rb-modulation.ipynb
 ```
+```
+[Web demonstration](https://huggingface.co/spaces/fffiloni/RB-Modulation) on Hugging Face!
+```
 
 ## Citation
 
@@ -58,4 +62,4 @@ jupyter notebook rb-modulation.ipynb
 [![Star History Chart](https://api.star-history.com/svg?repos=LituRout/RB-Modulation&type=Date)](https://star-history.com/#LituRout/RB-Modulation&Date) -->
 
 ## Disclaimer
-This is not an officially supported Google product
+This is not an officially supported Google product.
