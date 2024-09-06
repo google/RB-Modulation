@@ -1,9 +1,17 @@
-# RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control
+
+<div align="center">
+<h1>RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control</h1>
+
+<a href='https://rb-modulation.github.io/'><img src='https://img.shields.io/badge/Project-Page-green'></a>
+<a href='https://arxiv.org/pdf/2405.17401'><img src='https://img.shields.io/badge/ArXiv-Preprint-red'></a>
+[![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Demo-red)](https://huggingface.co/spaces/fffiloni/RB-Modulation)
+[![GitHub](https://img.shields.io/github/stars/google/RB-Modulation?style=social)](https://github.com/google/RB-Modulation)
+</div>
 
 Official PyTorch implementation of [**RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control**](https://arxiv.org/pdf/2405.17401).
 
 
-<!-- [![Star on GitHub](https://img.shields.io/github/stars/LituRout/RB-Modulation.svg?style=social)](https://github.com/LituRout/RB-Modulation/stargazers) -->
+<!-- [![Star on GitHub](https://img.shields.io/github/stars/google/RB-Modulation.svg?style=social)](https://github.com/google/RB-Modulation/stargazers) -->
 
 Given reference images of preferred style or content, our method, **RB-Modulation**, offers a plug-and-play solution for (a) stylization with various prompts, and (b)
 composition with reference content images while maintaining sample diversity and prompt alignment.
@@ -17,7 +25,7 @@ composition with reference content images while maintaining sample diversity and
 - [x] **[2024.05.29]** [Paper](https://arxiv.org/pdf/2405.17401) is published on arXiv!
 
 
-## Installation
+## 📥 Installation
 
 ```
 # Download pretrained models.
@@ -38,10 +46,14 @@ pip install segment-anything==1.0
 git clone https://github.com/luca-medeiros/lang-segment-anything && cd lang-segment-anything
 pip install -e .
 ```
-## Try it!
+
+## 🚀 Try it!
 ```commandline
 jupyter notebook rb-modulation.ipynb
 ```
+
+## 🤗 Gradio interface
+We also support a Gradio <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a> interface for a better experience:
 ```
 [Web demonstration](https://huggingface.co/spaces/fffiloni/RB-Modulation) on Hugging Face!
 ```
@@ -59,7 +71,7 @@ jupyter notebook rb-modulation.ipynb
 
 <!-- ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=LituRout/RB-Modulation&type=Date)](https://star-history.com/#LituRout/RB-Modulation&Date) -->
+[![Star History Chart](https://api.star-history.com/svg?repos=google/RB-Modulation&type=Date)](https://star-history.com/#google/RB-Modulation&Date) -->
 
 ## Disclaimer
 This is not an officially supported Google product.
