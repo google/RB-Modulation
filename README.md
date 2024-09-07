@@ -53,9 +53,13 @@ jupyter notebook rb-modulation.ipynb
 ```
 
 ## 🤗 Gradio interface
-We also support a Gradio <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a> interface for a better experience:
-```
-[Web demonstration](https://huggingface.co/spaces/fffiloni/RB-Modulation) on Hugging Face!
+We also support a Gradio <a href='https://github.com/gradio-app/gradio'><img src='https://img.shields.io/github/stars/gradio-app/gradio'></a> interface for better experience:
+[Web demonstration](https://huggingface.co/spaces/fffiloni/RB-Modulation)🔥
+```bash
+# Make sure you have the docker correctly setup.
+git clone https://huggingface.co/spaces/fffiloni/RB-Modulation
+cd RB-Modulation
+python app.py
 ```
 
 ## Citation
