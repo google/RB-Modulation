@@ -65,11 +65,13 @@ python app.py
 ## Citation
 
 ```
-@article{rout2024rbmodulation,
-  title={RB-Modulation: Training-Free Personalization of Diffusion Models using Stochastic Optimal Control},
-  author={Litu Rout and Yujia Chen and Nataniel Ruiz and Abhishek Kumar and Constantine Caramanis and Sanjay Shakkottai and Wen-Sheng Chu},
-  journal={arXiv preprint arXiv:2405.17401},
-  year={2024}
+@inproceedings{
+rout2025rbmodulation,
+title={{RB}-Modulation: Training-Free Stylization using Reference-Based Modulation},
+author={Litu Rout and Yujia Chen and Nataniel Ruiz and Abhishek Kumar and Constantine Caramanis and Sanjay Shakkottai and Wen-Sheng Chu},
+booktitle={The Thirteenth International Conference on Learning Representations},
+year={2025},
+url={https://openreview.net/forum?id=bnINPG5A32}
 }
 ```
 
